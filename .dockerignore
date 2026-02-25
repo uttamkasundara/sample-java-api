@@ -1,0 +1,11 @@
+.dockerignore
+.git
+.mvn
+Dockerfile
+
+# Ignore build output except keep the built JAR so Docker context includes it
+target/
+!target/*.jar
+.git
+.mvn
+Dockerfile
